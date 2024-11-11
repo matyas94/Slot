@@ -16,7 +16,7 @@ ssharom = random.randint(1,9)
 slista = [segy, sketto, sharom,]
 sslista = [ssegy, ssketto, ssharom,]
 
-for i in range(1,7):
+for i in range(0,2):
     if slista[i] != sslista[i]:
         slot += 1
 
@@ -39,9 +39,9 @@ while slot <= 9:
 
     time.sleep(1)
 
-sssegy = slista[0]
-sssketto = slista[1]
-sssharom = slista[2]
+sssegy = sslista[0]
+sssketto = sslista[1]
+sssharom = sslista[2]
 
 if sssegy == sssketto and sssketto == sssharom:
     print("Big win")
